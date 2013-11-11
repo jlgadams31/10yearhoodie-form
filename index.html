@@ -49,71 +49,145 @@
     </div>
 
 <!-- FORM -->
-    <form action="" method="get"
-        <div> <b>Color:</b>
-            <label>
-                <input type="checkbox" name="color" value="Explorer Red"> Explorer Red
-            </label>
-            <label>
-                <input type="checkbox" name="color" value="Navy Blue"> Navy Blue
-            </label>
-            <label>
-                <input type="checkbox" name="color" value="Army Green"> Army Green
-            </label>
-            <label>
-                <input type="checkbox" name="color" value="Charcoal Gray"> Charcoal Gray
-            </label>
-            <label>
-                <input type="checkbox" name="color" value="Black"> Black
-            </label
+    <div class="hoodie-image">
+        <div class="check-out">
+
+            <h2>Order Yours Today!</h2>
+
+            <div class="container">
+                <fieldset class="row">
+                    <legend class="col-md-3"> Color </legend>
+                    <div class="col-md-9">
+                        <form action="" method="get">
+                            <select class="form-control">
+                                <option value="Explorer Red"> Explorer Red</option>
+                                <option value="Navy Blue"> Navy Blue</option>
+                                <option value="Army Green"> Army Green</option>
+                                <option value="Charcoal Gray"> Charcoal Gray</option>
+                                <option value="Black"> Black</option>
+                            </select>
+                    </div>
+                </fieldset>
+            </div>
+
+            <div class="container">
+                <fieldset class="row">
+                    <legend class="col-md-3"> Size <i>(Unisex Fit)</i></legend>
+                    <div class="col-md-9">
+                        <form action="" method="get">
+                            <select class="form-control">
+                                <option value="Xsmall"> X-Small</option>
+                                <option value="Small"> Small</option>
+                                <option value="Medium"> Medium</option>
+                                <option value="Large"> Large</option>
+                                <option value="XLarge"> X-Large</option>
+                                <option value="XXLarge"> XX-Large</option>
+                                <option value="XXXLarge"> XXX-Large</option>
+                            </select>
+                    </div>
+                </fieldset>
+            </div>
+
+            <div class="container">
+                <fieldset class="row">
+                    <legend class="col-md-3"> Patches - $5 each</legend>
+                    <div class="col-md-9">
+                        <form action="" method="get">
+                            <div>
+                                <input id="Year 1" name="Patch" type="checkbox">
+                                <label for="Year 1"> Year 1
+                                <label>
+                                    <input type="checkbox" name="Patch" value="Year 2"> Year 2
+                               </label>
+                                <label>
+                                    <input type="checkbox" name="Patch" value="Year 3"> Year 3
+                               </label>
+                                <label>
+                                    <input type="checkbox" name="Patch" value="Year 4"> Year 4
+                               </label>
+                                <label>
+                                    <input type="checkbox" name="Patch" value="Year 5"> Year 5
+                               </label>
+                                <label>
+                                    <input type="checkbox" name="Patch" value="Year 6"> Year 6
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="Patch" value="Year 7"> Year 7
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="Patch" value="Year 8"> Year 8
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="Patch" value="Year 9"> Year 9
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="Patch" value="Year 10"> Year 10
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="Patch" value="A Decade Worth of Patches - $35"> A Decade Worth of Patches - $35
+                                </label>
+                            </div>
+                    </div>
+                </fieldset>
+            </div>
+    <br>
+
+            <div class="container">
+                <fieldset class="row">
+                    <legend class="col-md-3"> Shipping Information</legend>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" name="Your Name" placeholder="Your Name">
+                        <input type="text" class="form-control" name="Address" placeholder="Address">
+                        <input type="text" class="form-control" name="City" placeholder="City">
+                        <input type="text" class="form-control" name="State" placeholder="State">
+                        <input type="text" class="form-control" name="Zip Code" placeholder="Zip Code">
+                        <input type="text" class="form-control" name="Email" placeholder="E-mail">
+                    </div>
+                </fieldset>
+            </div>
+    <br>
+
+             <div class="container">
+                <fieldset class="row">
+                    <legend class="col-md-3"> Payment Type</i></legend>
+                    <div class="col-md-9">
+                        <form action="" method="get">
+                            <select class="form-control">
+                                <option value="1"> VISA</option>
+                                <option value="2"> AMEX</option>
+                                <option value="3"> MASTERCARD</option>
+                            </select>
+                    </div>
+                </fieldset>
+            </div>
+
+            <div class="container">
+                <fieldset class="row">
+                    <legend class="col-md-3"> Shipping Same As Billing Address?</legend>
+                    <div class="col-md-9">
+                        <form action="" method="get">
+                            <div>
+                                <label>
+                                    <input type="radio" name="shipandbill" value="yes">Yes
+                                </label>
+                                <label>
+                                    <input type="radio" name="shipandbill" value="no"> No
+                                </label>
+                            </div>
+                    </div>
+                </fieldset>
+            </div>
+
         </div>
-
-        <div> <b>Size:</b> <i>(Unisex Sizing)</i>
-            <label>
-                <input type="checkbox" name="Size" value="X-Small"> X-Small
-            </label>
-            <label>
-                <input type="checkbox" name="Size" value="Small"> Small
-            </label>
-                <input type="checkbox" name="Size" value="Medium"> Medium
-                <input type="checkbox" name="Size" value="Large"> Large
-                <input type="checkbox" name="Size" value="X-Large"> X-Large
-                <input type="checkbox" name="Size" value="XX-Large"> XX-Large
-                <input type="checkbox" name="Size" value="XXX-Large"> XXX-Large
-            </label>
-        </div>
-
-        <label> <b>Patches</b> - $5 each
-            <input type="checkbox" name="Patch" value="Year 1"> Year 1
-            <input type="checkbox" name="Patch" value="Year 2"> Year 2
-            <input type="checkbox" name="Patch" value="Year 3"> Year 3
-            <input type="checkbox" name="Patch" value="Year 4"> Year 4
-            <input type="checkbox" name="Patch" value="Year 5"> Year 5
-            <input type="checkbox" name="Patch" value="Year 6"> Year 6
-            <input type="checkbox" name="Patch" value="Year 7"> Year 7
-            <input type="checkbox" name="Patch" value="Year 8"> Year 8
-            <input type="checkbox" name="Patch" value="Year 9"> Year 9
-            <input type="checkbox" name="Patch" value="Year 10"> Year 10
-            <input type="checkbox" name="Patch" value="A Decade Worth of Patches - $35"> A Decade Worth of Patches - $35
-        </label>
-
-        <label> Shipping Information
-            <input type="text" name="Your Name" placeholder="Your Name">
-            <input type="text" name="Address" placeholder="Address">
-            <input type="text" name="City" placeholder="City">
-            <input type="text" name="State" placeholder="State">
-            <input type="text" name="Zip Code" placeholder="Zip Code">
-            <input type="text" name="Email" placeholder="E-mail">
-            <input type="radio" name="shipandbill" value="yes"
-        </label>
-
-        <label> Shipping Same as Billing Address?
-            <input type="radio" name="shipandbill" value="yes">
-            <input type="radio" name="shipandbill" value="no">
-        </label>
-
+    </div>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 </body>
+
 </html>
 
 
