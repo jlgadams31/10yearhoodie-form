@@ -29,9 +29,9 @@ p{
 
 .logo{
     background: url(images/logo.png) no-repeat;
-    background-size:  91px 111px;
-    width: 91px;
-    height: 111px;
+    background-size:  60px 73px;
+    width: 60px;
+    height: 73px;
     float: left;
     position: fixed;
     top:0;
@@ -43,8 +43,8 @@ p{
         z-index: 1;
         top: 0;
         width: 100%;
-        padding: 12px 0;
-        height: 60px;
+        padding: 6px 0;
+        height: auto;
         box-shadow: 0 2px 20px rgba(0,0,0,0.2);
 }
 
@@ -143,4 +143,10 @@ input[type="text"]:focus{
 }
 
 @media screen and (min-width: 800px) {
+    .logo{
+    background: url(images/logo.png) no-repeat;
+    background-size:  90px 111px;
+    width: 90px;
+    height: 111px;
+    }
 }
